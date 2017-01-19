@@ -34,12 +34,12 @@ public class verifyTopNav {
     @Test
     public void VerifyTopNav() {
 
-        HomePage home = new HomePage(driver);
-        home.navigateToHomePage();
-        NewsPage news = home.clickOnNews();
-        System.out.println(news.verifyOnNewsPage());
-        SportsPage sports = home.clickOnSports();
-        System.out.println(sports.verifyOnSportsPage());
+//        HomePage home = new HomePage(driver);
+//        home.navigateToHomePage();
+//        NewsPage news = home.clickOnNews();
+//        System.out.println(news.verifyOnNewsPage());
+//        SportsPage sports = home.clickOnSports();
+//        System.out.println(sports.verifyOnSportsPage());
 
 
     }
