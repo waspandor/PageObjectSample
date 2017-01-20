@@ -3,12 +3,6 @@ package com.bbc.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-
-/**
- * Created by Waseem on 8/21/2016.
- * <p>
- * Will stote locators and methofs
- */
 public class HomePage extends Page {
 
     public HomePage(WebDriver driver) {
@@ -24,9 +18,10 @@ public class HomePage extends Page {
     }
 
 
-    public SportsPage clickOnSports(){
+    public void verifyUserLoggedIn(String username){
 
-        driver.findElement(By.className("orb-nav-sport")).click();
-        return new SportsPage(driver);
+        System.out.println("Useris logged in");
+
     }
+
 }

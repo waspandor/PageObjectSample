@@ -17,4 +17,9 @@ public class SportsPage extends Page {
     public String getTitle() {
         return driver.getTitle();
     }
+
+
+    public void test(){
+        System.out.println("TESTETST");
+    }
 }

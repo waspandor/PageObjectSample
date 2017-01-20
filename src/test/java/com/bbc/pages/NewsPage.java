@@ -10,10 +10,18 @@ public class NewsPage extends Page {
 
     public NewsPage(WebDriver driver) {
         super(driver);
+        verifyOnNewsPage();
 
     }
 
     public String verifyOnNewsPage() {
         return driver.getCurrentUrl();
     }
+
+
+    public void tested() {
+
+        System.out.println("News Test");
+    }
+
 }
